@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer Intern",
+    "company": "TechCorp Solutions",
+    "domain": "Engineering",
+    "location": "Remote",
+    "type": "Full-time",
+    "stipend": "$1,500/mo",
+    "description": "Build and optimize responsive user interfaces using HTML, CSS, and modern JavaScript."
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design Intern",
+    "company": "CreativeStudio",
+    "domain": "Design",
+    "location": "Hybrid (New York)",
+    "type": "Part-time",
+    "stipend": "$1,200/mo",
+    "description": "Assist in creating wireframes, user flows, and high-fidelity prototypes for mobile and web apps."
+  }
+]

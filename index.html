@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Internship Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header role="banner">
+    <h1>Internship Opportunities</h1>
+    <p>Find your next role with our accessible, responsive board.</p>
+  </header>
+
+  <main role="main">
+    <!-- Search and Filters Section -->
+    <section class="filters-container" aria-label="Internship filters">
+      <div class="filter-group">
+        <label for="search-input">Search internships</label>
+        <input type="text" id="search-input" placeholder="Search by title, company, or keywords...">
+      </div>
+      
+      <div class="filter-group">
+        <label for="domain-filter">Filter by domain</label>
+        <select id="domain-filter">
+          <option value="">All Domains</option>
+          <option value="Engineering">Engineering</option>
+          <option value="Design">Design</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section aria-live="polite">
+      <div id="internship-grid" class="internship-grid">
+        <!-- Cards rendered dynamically via JavaScript -->
+      </div>
+      
+      <!-- Empty/Error State -->
+      <div id="empty-state" class="empty-state hidden">
+        <p>No internships found matching your criteria.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
